@@ -238,7 +238,7 @@ body {
   justify-content: center;
   border-radius: 4px;
   padding: 0 2em;
-  background-color: tomato;
+   background-color: rgb(34, 48, 122);
   color: #fff;
   height: 35px;
   margin-right: 5px;
@@ -279,9 +279,11 @@ body {
 .dates li {
   padding: 1.5rem 0.5rem;
   text-align: center;
+  border-radius: 8px;
+  margin: 0.5rem;
   border-right: 1px solid;
   border-bottom: 1px solid;
-  border-color: #e0e0e0;
+  border-color: #ccc;
   cursor: pointer;
   list-style: none;
   position: relative;
@@ -296,7 +298,7 @@ body {
 }
 .dates li.today {
   color: #fff;
-  background-color: tomato;
+  background-color: rgb(34, 48, 122);
 }
 .dates li.selected {
   background-color: #ffc316;
@@ -311,7 +313,7 @@ body {
   padding: 15px 40px;
   border: none;
   border-radius: 8px;
-  background-color: tomato;
+  background-color: rgb(34, 48, 122);
   color: white;
 }
 </style>
